@@ -46,3 +46,7 @@ header {
 .address {
     font-size: 10px;
 }
+
+th, td{
+    display: flex;
+} 
