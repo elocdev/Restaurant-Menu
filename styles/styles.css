@@ -16,7 +16,7 @@ li, a {
 header {
     display: flex;
     justify-content: flex-end;
-    align-items: center;
+    align-items: space-between;
     padding: 30px 10%;
 }
 
