@@ -50,3 +50,7 @@ header {
 th, td{
     display: flex;
 } 
+
+table {
+    margin-left: 40px;
+}
