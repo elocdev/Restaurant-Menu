@@ -47,10 +47,6 @@ header {
     font-size: 10px;
 }
 
-th, td{
+tr td {
     display: flex;
-} 
-
-table {
-    margin-left: 40px;
 }
