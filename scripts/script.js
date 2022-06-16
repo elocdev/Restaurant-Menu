@@ -15,7 +15,7 @@ function openMenuSection(evt, menuItem) {
     }
 
     // Show the current tab, and add an "active" class to the link that opened the tab
-    document.getElementById(menuItem).style.display = "block";
+    document.getElementById(menuItem).style.display = "flex";
     evt.currentTarget.className += " active";
 }
 
