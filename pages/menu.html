@@ -27,53 +27,58 @@
       </ul>
     </nav>
   </header>
-  <div class="tabs">
-    <button class="tablinks" onclick="openMenuSection(event, 'appetizers')">Appetizers</button>
-    <button class="tablinks" onclick="openMenuSection(event, 'houseSpecialties')">House Specialties</button>
-  </div>
+  
 
-  <div class="tabcontent" id="appetizers">
-    <table>
-      <tr>
-        <td>Egg Rolls</td>
-        <td>Spring Rolls</td>
-        <td>Chicken Wings</td>
-        <td>Boneless Spare Ribs</td>
-        <td>Fried Shrimp</td>
-        <td>Beef Teriyaki</td>
-        <td>Chicken Teriyaki</td>
-        <td>Crab Rangoon</td>
-        <td>Chicken Fingers</td>
-        <td>Scallion Pancake</td>
-        <td>Fried or Steamed Dumplings</td>
-        <td>Szechuan Dumpling</td>
-        <td>Five Flavor Wings</td>
-        <td>French Fries</td>
-        <td>Fried Wonton</td>
-      </tr>
-    </table>
-  </div>
-  <div class="tabcontent" id="houseSpecialties">
-    <table>
-      <tr>
-        <td>General Tso Chicken</td>
-        <td>Spring Rolls</td>
-        <td>Chicken Wings</td>
-        <td>Boneless Spare Ribs</td>
-        <td>Fried Shrimp</td>
-        <td>Beef Teriyaki</td>
-        <td>Chicken Teriyaki</td>
-        <td>Crab Rangoon</td>
-        <td>Chicken Fingers</td>
-        <td>Scallion Pancake</td>
-        <td>Fried or Steamed Dumplings</td>
-        <td>Szechuan Dumpling</td>
-        <td>Five Flavor Wings</td>
-        <td>French Fries</td>
-        <td>Fried Wonton</td>
-      </tr>
-    </table>
-  </div>
+  <main>
+    <div class="tabs">
+      <button class="tablinks" onclick="openMenuSection(event, 'appetizers')" id="defaultTab">Appetizers</button>
+      <button class="tablinks" onclick="openMenuSection(event, 'houseSpecialties')">House Specialties</button>
+      <button class="tablinks" onclick="openMenuSection(event, 'appetizerCombos')">Appetizer Combinations</button>
+    </div>
+
+    <div class="tabcontent" id="appetizers">
+      <table>
+        <tr>
+          <td>Egg Rolls (2)</td>
+          <td>Spring Rolls (2)</td>
+          <td>Chicken Wings (7)</td>
+          <td>Boneless Spare Ribs (12)</td>
+          <td>Fried Shrimp (7)</td>
+          <td>Beef Teriyaki (7)</td>
+          <td>Chicken Teriyaki (7)</td>
+          <td>Crab Rangoon (12)</td>
+          <td>Chicken Fingers (12)</td>
+          <td>Scallion Pancake</td>
+          <td>Fried or Steamed Dumplings (14)</td>
+          <td>Szechuan Dumpling (14)</td>
+          <td>Five Flavor Wings</td>
+          <td>French Fries</td>
+          <td>Fried Wonton</td>
+        </tr>
+      </table>
+    </div>
+    <div class="tabcontent" id="appetizerCombos">
+      <p>Pu Pu Platter for Two <span>$26.65</span></p>
+      <p>Egg Rolls (2), Beef Teriyaki (2), Fried Shrimp (2), Chicken Wings (4).
+        Chicken Fingers (6), Boneless Spare Ribs (8), Crab Rangoon (4)
+      </p>
+    </div>
+    <div class="tabcontent" id="houseSpecialties">
+      <table>
+        <tr>
+          <td>Happy Family</td>
+          <td>General Tso's Chicken</td>
+          <td>Dragon and Phoenix</td>
+          <td>Mongolian Beef</td>
+          <td>Mango Chicken</td>
+          <td>Big Boss</td>
+          <td>Lake Tung Ting Shrimp & Scallop</td>
+          <td>Two Side Pan Fried Noodles Delight</td>
+        </tr>
+      </table>
+    </div>
+  </main>
+  
   
 
   <script src="../scripts/script.js"></script>
