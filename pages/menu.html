@@ -33,29 +33,29 @@
     <div class="tabs">
       <button class="tablinks" onclick="openMenuSection(event, 'appetizers')" id="defaultTab">Appetizers</button>
       <button class="tablinks" onclick="openMenuSection(event, 'appetizerCombos')">Appetizer Combinations</button>
+      <button class="tablinks" onclick="openMenuSection(event, 'soups')">Soup</button>
       <button class="tablinks" onclick="openMenuSection(event, 'houseSpecialties')">House Specialties</button>
+      <button class="tablinks" onclick="openMenuSection(event, 'chicken')">Chicken</button>
+      <button class="tablinks" onclick="openMenuSection(event, 'chowMein')">Chow Mein</button>
+      <button class="tablinks" onclick="openMenuSection(event, 'loMein')">Lo Mein</button>
     </div>
 
     <div class="tabcontent" id="appetizers">
-      <table>
-        <tr>
-          <td>Egg Rolls (2)</td>
-          <td>Spring Rolls (2)</td>
-          <td>Chicken Wings (7)</td>
-          <td>Boneless Spare Ribs (12)</td>
-          <td>Fried Shrimp (7)</td>
-          <td>Beef Teriyaki (7)</td>
-          <td>Chicken Teriyaki (7)</td>
-          <td>Crab Rangoon (12)</td>
-          <td>Chicken Fingers (12)</td>
-          <td>Scallion Pancake</td>
-          <td>Fried or Steamed Dumplings (14)</td>
-          <td>Szechuan Dumpling (14)</td>
-          <td>Five Flavor Wings</td>
-          <td>French Fries</td>
-          <td>Fried Wonton</td>
-        </tr>
-      </table>
+      <p>Egg Rolls (2)</p>
+      <p>Spring Rolls (2)</p>
+      <p>Chicken Wings (7)</p>
+      <p>Boneless Spare Ribs (12)</p>
+      <p>Fried Shrimp (7)</p>
+      <p>Beef Teriyaki (7)</p>
+      <p>Chicken Teriyaki (7)</p>
+      <p>Crab Rangoon (12)</p>
+      <p>Chicken Fingers (12)</p>
+      <p>Scallion Pancake</p>
+      <p>Fried or Steamed Dumplings (14)</p>
+      <p>Szechuan Dumpling (14)</p>
+      <p>Five Flavor Wings</p>
+      <p>French Fries</p>
+      <p>Fried Wonton</p>     
     </div>
     <div class="tabcontent" id="appetizerCombos">
       <p>Pu Pu Platter for Two <span>$26.65</span></p>
@@ -76,26 +76,67 @@
       <p>
         Egg Rolls (1), Chicken Fingers (3), Crab Rangoon (3), Fried Shrimp (2), Chicken Wings (2)
       </p>
+      <p>No Substitutions on X'mas Eve and New Year's Eve</p>
+    </div>
+    <div class="tabcontent" id="soups">
+      <p>Not Available on X'mas Eve and New Year's Eve</p>
+      <p>Roast Pork Wonton Soup</p>
+      <p>Hot and Sour Soup</p>
+      <p>Chicken Egg Drop Soup</p>
     </div>
     <div class="tabcontent" id="houseSpecialties">
-      <table>
-        <tr>
-          <td>Happy Family <span class="price">price</span></td>
-          <td>Sliced chicken, beef, scallops, shrimps, and vegetables in our chef's special brown sauce.</td>
-          <td>General Tso's Chicken</td>
-          <td>Chunks of crispy white chicken meat sauteed in a spicy, tangy sauce</td>
-          <td>Dragon and Phoenix</td>
-          <td>
-            Two dishes in one. Jumbo shrimp sauteed with selected greens with a spicy white wine sauce. 
-            General Tso's Chicken on the other side
-          </td>
-          <td>Mongolian Beef</td>
-          <td>Mango Chicken</td>
-          <td>Big Boss</td>
-          <td>Lake Tung Ting Shrimp & Scallop</td>
-          <td>Two Side Pan Fried Noodles Delight</td>
-        </tr>
-      </table>
+      <p>Happy Family <span>price</span></p>
+      <p>Sliced chicken, beef, scallops, shrimps, and vegetables in our chef's special brown sauce.</p>
+      <p>General Tso's Chicken</p>
+      <p>Chunks of crispy white chicken meat sauteed in a spicy, tangy sauce</p>
+      <p>Dragon and Phoenix</p>
+      <p>
+        Two dishes in one. Jumbo shrimp sauteed with selected greens with a spicy white wine sauce. 
+        General Tso's Chicken on the other side
+      </p>
+      <p>Mongolian Beef</p>
+      <p>Mango Chicken</p>
+      <p>Big Boss</p>
+      <p>Lake Tung Ting Shrimp & Scallop</p>
+      <p>Two Side Pan Fried Noodles Delight</p>
+    </div>
+    <div class="tabcontent" id="chicken">
+      <p>Chicken with Vegetable</p>
+      <p>Chicken with Broccoli</p>
+      <p>Chicken with Pea Pod</p>
+      <p>Szechuan Chicken</p>
+      <p>Chicken with Garlic Sauce</p>
+      <p>Kung Pao Chicken with Peanuts</p>
+      <p>Lemon Chicken</p>
+      <p>Moo Goo Gai Pan</p>
+      <p>Orange Flavor Chicken</p>
+      <p>Sesame Chicken</p>
+      <p>Chicken with String Bean & Onion</p>
+      <p>Five Flavor Chicken</p>
+      <p>Curry Chicken</p>
+      <p>Cashew Chicken</p>
+    </div>
+    <div class="tabcontent" id="chowMein">
+      <p>With Crispy Dry Noodles</p>
+      <p>Vegetable Chow Mein</p>
+      <p>Pork Chow Mein</p>
+      <p>Chicken Chow Mein</p>
+      <p>Beef Chow Mein</p>
+      <p>Shrimp Chow Mein</p>
+      <p>House Chow Mein</p>
+    </div>
+    <div class="tabcontent" id="loMein">
+      <p>Soft Noodles</p>
+      <p>Pan Fried Garlic Noodles</p>
+      <p>Vegetable Lo Mein</p>
+      <p>Pork Lo Mein</p>
+      <p>Chicken Lo Mein</p>
+      <p>Beef Lo Mein</p>
+      <p>Shrimp Lo Mein</p>
+      <p>House Special Lo Mein</p>
+      <p>Hong Kong Style Rice Noodles</p>
+      <p>Singapore Curry rice Noodles</p>
+      <p>Pad Thai Noodle</p>
     </div>
   </main>
   
