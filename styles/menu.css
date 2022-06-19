@@ -10,7 +10,7 @@
     display: block;
     background-color: inherit;
     color: black;
-    padding: 10px 10px;
+    padding: 5px 5px;
     width: 100%;
     border: none;
     outline: none;
@@ -34,5 +34,6 @@
     width: 80%;
     border-left: none;
     height: 300px;
+    font-size: 14px;
 }
 
