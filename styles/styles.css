@@ -47,8 +47,8 @@ header {
     font-size: 10px;
 }
 
-tr td {
+table {
     display: flex;
-    justify-content: space-between;
+    margin-bottom: 10px;
+    justify-content: center;
 }
-
