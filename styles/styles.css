@@ -43,12 +43,6 @@ header {
     font-weight: 500;
     color: rgb(255, 65, 65);
 }
-.address {
-    font-size: 10px;
-}
 
-table {
-    display: flex;
-    margin-bottom: 10px;
-    justify-content: center;
-}
+
+
