@@ -16,8 +16,8 @@ header {
     display: flex;
     justify-content: flex-end;
     align-items: space-between;
-    padding: 30px 10%;
-    background-color: beige;
+    padding: 15px 10%;
+    background-color: gray;
 }
 
 .nav-links {
@@ -31,17 +31,18 @@ header {
 
 .nav-links li a {
     transition: all 0.3s ease 0s;
+    color: white;
 }
 
 .nav-links li a:hover {
-    color: #0088a9
+    color: rgb(255, 75, 75);
 }
 
 .info {
     margin-right: auto;
     font-style: "Montserrat", sans-serif;
     font-weight: 500;
-    color: rgb(255, 65, 65);
+    color: rgb(255, 75, 75);
 }
 
 
