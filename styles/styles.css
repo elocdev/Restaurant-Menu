@@ -50,4 +50,7 @@ img {
     color: rgb(255, 75, 75);
 }
 
+.slideshow-container {
+    display: flex;
+}
 
