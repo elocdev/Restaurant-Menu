@@ -20,6 +20,11 @@ header {
     background-color: gray;
 }
 
+img {
+    width: 250px;
+    height: 150px;
+}
+
 .nav-links {
     list-style: none;
 }
@@ -44,16 +49,5 @@ header {
     font-weight: 500;
     color: rgb(255, 75, 75);
 }
-
-main {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-img {
-    width: 250px;
-    height: 150px;
-}
-
 
 
