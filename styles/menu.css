@@ -2,6 +2,10 @@ main {
     padding: 2% 20%;
 }
 
+body {
+    height: auto;
+}
+
 p {
     display: flex;
     justify-content: space-between;
@@ -65,6 +69,11 @@ table {
 
 .substitution {
     margin-top: 10px;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
 }
 
 

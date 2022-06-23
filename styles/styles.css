@@ -21,8 +21,12 @@ header {
 }
 
 img {
-    width: 250px;
+    width: 236px;
     height: 150px;
+}
+
+body {
+    height: 100%;
 }
 
 .nav-links {
@@ -51,6 +55,17 @@ img {
 }
 
 .slideshow-container {
+    padding-top: 50px;
+}
+
+.myImages {
     display: flex;
+    justify-content: center;
+}
+
+.about {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
 }
 
