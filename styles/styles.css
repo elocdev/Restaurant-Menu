@@ -67,5 +67,6 @@ body {
     display: grid;
     grid-template-rows: 1fr 1fr;
     justify-content: center;
+    color: rgb(255, 75, 75);
 }
 
