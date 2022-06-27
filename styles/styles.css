@@ -52,6 +52,11 @@ body {
     margin-right: auto;
     font-style: "Montserrat", sans-serif;
     font-weight: 500;
+    color: white;
+    transition: all 0.3s ease 0s;
+}
+
+.info:hover {
     color: rgb(255, 75, 75);
 }
 
@@ -68,7 +73,7 @@ body {
     display: grid;
     grid-template-rows: 1fr 1fr;
     justify-content: center;
-    color: rgb(255, 75, 75);
+    color: white;
     margin-top: 15px;
 }
 
