@@ -14,6 +14,7 @@ p {
 h5 {
     color: rgb(255, 75, 75);
     margin-left: 11px;
+    margin-top: 10px;
 }
 
 table {
@@ -22,14 +23,19 @@ table {
     justify-content: center;
 }
 
+th {
+    color: rgb(255, 75, 75)
+}
+
 span {
     font-weight: normal;
+    color: rgb(0, 0, 0)
 }
 
 .tabs {
     float: left;
     border: 1px solid #ccc;
-    background-color: #f1f1f1;
+    background-color: rgb(255, 255, 155);
     width: 20%;
     height: 660px;
 }
@@ -37,7 +43,7 @@ span {
 .tabs button {
     display: block;
     background-color: inherit;
-    color: black;
+    color: rgb(255, 35, 35);
     padding: 8px 12px;
     width: 100%;
     border: none;
@@ -48,18 +54,18 @@ span {
 }
 
 .tabs button:hover {
-    background-color: #ddd;
+    background-color: white;
 }
 
 .tabs button.active {
-    background-color: #ccc;
+    background-color: rgb(225, 225, 0);
 }
 
 .tabcontent {
     float: left;
     padding: 0px 12px;
     border: 1px solid #ccc;
-    background-color: #f1f1f1;
+    background-color: rgb(255, 255, 155);
     width: 80%;
     border-left: none;
     height: 660px;
@@ -78,4 +84,9 @@ span {
 
 .menuItemName {
     font-weight: bold;
+    color: rgb(255, 75, 75);
+}
+
+.menuNote {
+    color: rgb(255, 255, 155);
 }

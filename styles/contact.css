@@ -2,5 +2,11 @@
     display: flex;
     justify-content: space-around;
     color: rgb(255, 255, 255);
-    padding: 50px;
+    margin-top: 150px;
+}
+
+.subheader {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 255, 155);
 }
